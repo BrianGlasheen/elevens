@@ -1,0 +1,11 @@
+Think about card games you’ve played. What kinds of information do these games require a card object to “know”? 
+Card games require that the cards know if they’re the same as another card. 
+
+What kinds of operations do these games require a card object to provide?
+The players of the game need to be able to get some information from the card like rank, suit, and point value.
+
+Now think about implementing a class to represent a playing card. What instance variables should it have?
+The card class should have a rank, a suit, and a point value. 
+
+What methods should it provide? 
+The card should be able to relay information to the players such as its rank, suit, point value, and equality to other cards. 
